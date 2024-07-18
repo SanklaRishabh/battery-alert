@@ -44,7 +44,7 @@ function Play-Sound {
 
 
 # Set the path to the warning audio file.
-$SoundFile = "resources/alert-bell.wav"
+$SoundFile = "<full-path-to-the-sound-file>"  # Add the full path to the sound file.
 
 while ($true) {
     $BatteryStatus = Get-WmiObject -Class Win32_Battery
